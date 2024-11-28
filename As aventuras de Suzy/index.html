@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Lilita+One&family=Spicy+Rice&display=swap" rel="stylesheet">
+    <title>As aventuras de Suzy: Parte 1</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0"> 
+            <img src="cenario-passo-0.png" alt="">
+            <p>Enquanto passeia pela floresta numa tardezinha, você encontra um relógio de bolso aos pés de uma árvore. Você então decide pegar o relógio para ver o quão valioso ele era, mas logo percebe que ele é um tanto esquisito. O relógio só tem dois horários marcados com número, o da meia noite e o do meio dia. Há apenas um ponteiro, que você consegue mover com as proprias mãos. Você deve escolher mover para baixo ou para cima. Meio dia ou meia noite.</p>
+            <button class="btn-próximo" data-proximo="1"> Meio dia 🌥 </button>
+            <button class="btn-próximo" data-proximo="2"> Meia noite 🌙 </button>
+
+        </div>
+
+        <div class="passo" id="passo-1"> 
+            <img src="cenario-passo-1.png" alt="">
+            <p>Tudo parece ficar escuro de repente, e quando você abre os olhos, você se depara com mil pequenas criaturas humanóides com bigodes. Elas te encaram fixamente, e um deles dá um passo à frente, com uma expressão meio zangada.</p>
+            <button class="btn-próximo" data-proximo="3"> Dizer olá. </button>
+            <button class="btn-próximo" data-proximo="4"> Ficar em silêncio. </button>
+
+       
+        </div>
+
+        <div class="passo" id="passo-2">
+            <img src="cenario-passo-28.png" alt=""> 
+            <p>Você pega o relógio e muda o ponteiro, e logo depois, em um piscar de olhos, você parece ter voltado para o orfanato. Está de noite e parece que todo mundo está dormindo. Você sorri: “Foi um sonho esquisito... Félix.” E se lembra, de repente, do amigo que desapareceu depois de tanto tempo.</p>
+            <button class="btn-próximo" data-proximo="0"> Reiniciar página... </button>
+        </div>    
+
+        
+        <div class="passo" id="passo-3"> 
+            <img src="cenario-passo-3.png" alt="">
+            <p>O pequeno homem bigodudo franze a sobrancelha:
+                - “Quem é você, forasteiro?”</p>
+            <button class="btn-próximo" data-proximo="5"> Dizer o seu nome (Suzy).</button>
+            <button class="btn-próximo" data-proximo="6"> Dar um passo para trás, assustada.</button>
+
+        </div>
+        <div class="passo" id="passo-4"> 
+            <img src="cenario-passo-4.png" alt="">
+            <p>O pequeno homem bigodudo franze a sobrancelha:
+                - “Quem é você, forasteiro?”</p>
+            <button class="btn-próximo" data-proximo="5"> Dizer o seu nome (Suzy).</button>
+            <button class="btn-próximo" data-proximo="6"> Dar um passo para trás, assustada.</button>
+
+        </div>
+
+        <div class="passo" id="passo-5"> 
+            <img src="cenario-passo-5.png" alt="">
+            <p>- “M-meu nome é Suzy...”, você diz assustada, e o pequeno homem dá um leve sorriso. “Você não precisa ficar com medo. Ei, o que é isso na sua mão?”.</p>
+            <button class="btn-próximo" data-proximo="7"> Próximo...</button>
+
+        </div>
+
+        <div class="passo" id="passo-6"> 
+            <img src="cenario-passo-6.png" alt="">
+            <p> O pequeno homem se zanga e dá um berro, para todos os mil mini-homens ouvirem: “Levem essa forasteira para a rainha! Agooora!!!”. Os outros homens se organizam de um jeito esquisito e você já consegue sentir as mãozinhas no seu tornozelo. O que você faz? </p>
+            <button class="btn-próximo" data-proximo="8"> Você deixa eles te levarem, pois também quer conversar com o líder dessas criaturas peculiares.</button>
+            <button class="btn-próximo" data-proximo="9"> Você chuta eles e sai correndo.</button>
+
+        </div>
+
+        <div class="passo" id="passo-7"> 
+            <img src="cenario-passo-6.png" alt="">
+            <p> Antes que você pudesse se explicar, o pequeno homem berrou, para todos os mini-homens ouvirem: “Ladra! Ladra! Ela roubou o relógio do Lorde Faifai!!!”. Os pequeninos agarram seus tornozelos e começam a te empurrar, puxando incessantemente.</p>
+            <button class="btn-próximo" data-proximo="8"> Próximo...</button>
+
+        </div>
+
+        <div class="passo" id="passo-9"> 
+            <img src="cenario-passo-9.png" alt="">
+            <p> Você não consegue correr, pois são muitos homenzinhos, e eles acabam conseguindo te prender. Contra a sua vontade, eles te levam à rainha, ou quem quer que seja aquele que manda neles. </p>
+            <button class="btn-próximo" data-proximo="8"> Próximo... </button>
+        </div>
+
+        <div class="passo" id="passo-8"> 
+            <img src="cenario-passo-8.png" alt="">
+            <p> Você caminha pelo imenso lugar que é cheio de árvores e criaturas místicas. Um pássaro que adota uma postura humana te encara, e os homenzinhos o cumprimentam. Você tenta se soltar, na esperança de conseguir recuperar o relógio que o pequeno homem roubou, mas em vão. </p>
+            <button class="btn-próximo" data-proximo="10"> Próximo... </button>
+        </div>
+
+        <div class="passo" id="passo-10"> 
+            <img src="cenario-passo-10.png" alt="">
+            <p> Depois de andar o que parecia ter sido um século, você percebeu algo esquisito com o céu. Parecia nunca ficar de noite. “Que lugar é esse?” Você resmunga, e o homenzinho que puxa sua canela com urgência olha para você. “Você está no reino de PiperStone, forasteira”. </p>
+            <button class="btn-próximo" data-proximo="11"> ...(Como eles conseguiram me ouvir?)... </button>
+            <button class="btn-próximo" data-proximo="12"> “Meu nome é Suzy. E eu nem deveria estar aqui.” </button>
+        </div>
+
+        <div class="passo" id="passo-11"> 
+            <img src="cenario-passo-11.png" alt="">
+            <p> Você tenta analisar o lugar e percebe que os mini-homens tem orelhas maiores do que o normal, assim como os bigodes. Você dá uma risadinha, e o pequenino que olhava para você fica com as bochechas vermelhas.</p>
+            <button class="btn-próximo" data-proximo="13"> Próximo... </button>
+        </div>
+
+        <div class="passo" id="passo-12"> 
+            <img src="cenario-passo-12.png" alt="">
+            <p> “É mesmo, sua monstrinha insolente. Espere só até te levarmos à rainha. Ela tem um péssimo temperamento. Vai acabar com você o quanto antes.” Ele diz, irritado, e você decide se calar.</p>
+            <button class="btn-próximo" data-proximo="14"> Próximo... </button>
+        </div>
+
+        <div class="passo" id="passo-13"> 
+            <img src="cenario-passo-13.png" alt="">
+            <p> Você finalmente consegue avistar o castelo: Um grande e imenso castelo, como daqueles que você via em filmes. A diferença era que era cercado por flores, árvores e muitos cipós, e a entrada era guardada por dois daqueles pássaros humanóides. Eles pareciam armados, já que seguravam uma espada transparente. </p>
+            <button class="btn-próximo" data-proximo="15"> ...(São de diamante)... </button>
+            <button class="btn-próximo" data-proximo="16"> ...(São de vidro)... </button>
+        </div>
+
+        <div class="passo" id="passo-14"> 
+            <img src="cenario-passo-13.png" alt="">
+            <p> Você finalmente consegue avistar o castelo: Um grande e imenso castelo, como daqueles que você via em filmes. A diferença era que era cercado por flores, árvores e muitos cipós, e a entrada era guardada por dois daqueles pássaros humanóides. Eles pareciam armados, já que seguravam uma espada transparente. </p>
+            <button class="btn-próximo" data-proximo="15"> ...(São de diamante)... </button>
+            <button class="btn-próximo" data-proximo="16"> ...(São de vidro)... </button>
+        </div>
+
+        <div class="passo" id="passo-15"> 
+            <img src="cenario-passo-15.png" alt="">
+            <p> Ao entrar no castelo, apenas dois pequenos homens te acompanham, o zangadinho e o que puxava sua perna incessantemente, e você anda por largos corredores de paredes feitas de vidro e detalhes em branco. Cortinas que pareciam de seda, e um chão transparente que mostrava um lago cheio de peixinhos com cabeça de cachorro, todos seguindo os passos de Suzy, e formando trilhas coloridas e fofas. Você olha para todos os lados... </p>
+            <button class="btn-próximo" data-proximo="17"> Supreendida. </button>
+            <button class="btn-próximo" data-proximo="18"> Estranhando. </button>
+        </div>
+
+        <div class="passo" id="passo-16"> 
+            <img src="cenario-passo-15.png" alt="">
+            <p> Ao entrar no castelo, apenas dois pequenos homens te acompanham, o zangadinho e o que puxava sua perna incessantemente, e você anda por largos corredores de paredes feitas de vidro e detalhes em branco. Cortinas que pareciam de seda, e um chão transparente que mostrava um lago cheio de peixinhos com cabeça de cachorro, todos seguindo os passos de Suzy, e formando trilhas coloridas e fofas. Você olha para todos os lados... </p>
+            <button class="btn-próximo" data-proximo="17"> Supreendida. </button>
+            <button class="btn-próximo" data-proximo="18"> Estranhando. </button>
+        </div>
+
+        <div class="passo" id="passo-17"> 
+            <img src="cenario-passo-17.png" alt="">
+            <p> Os pequeninos te olharam com admiração, mas eram tímidos demais para dizer alguma coisa. </p>
+            <button class="btn-próximo" data-proximo="19"> Próximo... </button>
+        </div>
+       
+        <div class="passo" id="passo-18"> 
+            <img src="cenario-passo-18.png" alt="">
+            <p> Os pequeninos te olharam com estranhamento, mas sabiam que se continuasse sendo tão rude, a rainha te ensinaria uma lição. </p>
+            <button class="btn-próximo" data-proximo="19"> Próximo... </button>
+        </div>
+
+        
+        <div class="passo" id="passo-19"> 
+            <img src="cenario-passo-19.png" alt="">
+            <p> Vocês finalmente chegam à sala do trono, contudo, a rainha não parece estar lá, e há apenas um garoto com roupas bufantes sentado no grande torno feito de folhas e cipós. Você franze a testa, porque aquele é o unico ser naquele mundinho que se parece com um humano. </p>
+            <button class="btn-próximo" data-proximo="20"> Próximo... </button>
+        </div>
+
+        <div class="passo" id="passo-20"> 
+            <img src="cenario-passo-20.png" alt="">
+            <p> Está gostando? Compartilhe!!! </p>
+            <button class="btn-próximo" data-proximo="21"> Continuar... </button>
+        </div>
+
+        <div class="passo" id="passo-21"> 
+            <img src="cenario-passo-21.png" alt="">
+            <p> O garoto parece perplexo quando te vê, com uma mistura de surpresa e malícia. Os pequeninos finalmente dizem algo: “Oh, vossa majestade Lorde Faifai, eis aqui o seu relógio. Por obséquio, vossa majestade poderia nos informar onde a rainha se encontra?”. O Lorde sorri e se levanta do trono, andando em sua direção. </p>
+            <button class="btn-próximo" data-proximo="22"> Próximo... </button>
+        </div>
+
+        <div class="passo" id="passo-22"> 
+            <img src="cenario-passo-22.png" alt="">
+            <p> “Ora, ora, ora. O que temos aqui? Uma forasteira, hm? O que faz aqui e por quê? Ah, na verdade, onde encontrou o relógio. A-hem... meu relógio...?” </p>
+            <button class="btn-próximo" data-proximo="23"> “Seu relógio? Eu é quem pergunto o que alguém como você faria aqui.” </button>
+            <button class="btn-próximo" data-proximo="24">“Eu me chamo Suzy. Lembra de mim? Porque eu lembro muito bem de você, Félix.”</button>
+        </div>
+
+        <div class="passo" id="passo-23"> 
+            <img src="cenario-passo-23.png" alt="">
+            <p> O Lorde Faifai pareceu ficar nervoso, e então dispensou os dois pequeninos, que desconfiaram, mas saíram rapidamente, com passinhos curtos e apressados. “É uma longa história...” Ele disse colocando a mão sobre o rosto. </p>
+            <button class="btn-próximo" data-proximo="25"> Próximo... </button>
+        </div>
+
+        <div class="passo" id="passo-24"> 
+            <img src="cenario-passo-23.png" alt="">
+            <p> O Lorde Faifai pareceu ficar nervoso, e então dispensou os dois pequeninos, que desconfiaram, mas saíram rapidamente, com passinhos curtos e apressados. “É uma longa história...” Ele disse colocando a mão sobre o rosto. </p>
+            <button class="btn-próximo" data-proximo="25"> Próximo... </button>
+        </div>
+
+        <div class="passo" id="passo-25">            
+            <img src="cenario-passo-24.png" alt="">
+            <p> Félix começou a contar a história de como encontrou o relógio na floresta, e como precisou fugir das criaturas enquanto se escondia em cavernas. “Um dia, ele disse, quando a rainha fazia uma expedição, ela me viu e disse que eu me parecia muito com seu filho desaparecido. Ela me levou ao castelo e então eu menti dizendo que realmente era seu filho. Mas eu fico indeciso entre o reino de PiperStone e nossa cidade. Mas acho que prefiro aqui. Tenho tudo o que preciso; comida boa, banho quente, cama feita, roupas no-...” </p>
+            <button class="btn-próximo" data-proximo="26"> “Você mentiu? Ah, claro, não esperava menos de você. Quer saber? Me dá esse relógio. </button>
+            <button class="btn-próximo" data-proximo="27">“Você tem muita sorte. Como faço para sair daqui? Eu não tenho nada de interessante como você...</button>
+        </div>
+
+        <div class="passo" id="passo-26"> 
+            <img src="cenario-passo-25.png" alt="">
+            <p> Ele quase te entregou o relógio, porém disse: Se você colocar o ponteiro na meia noite, tudo vai voltar ao normal. Vai acordar na sua cama, como se tudo fosse um sonho legal...” Ele fez uma expressão desanimada. “Suzy, tem certeza de que não quer ficar? Aqui podemos ter tudo. Mas lá no orfanato... Eu tenho certeza de que podemos fazer várias coisas legais. Eu prometo que se você ficar, eu não vou mais mentir. </p>
+            <button class="btn-próximo" data-proximo="28"> Próximo... </button> 
+       </div>
+
+       <div class="passo" id="passo-27"> 
+        <img src="cenario-passo-25.png" alt="">
+        <p> Ele quase te entregou o relógio, porém disse: Se você colocar o ponteiro na meia noite, tudo vai voltar ao normal. Vai acordar na sua cama, como se tudo fosse um sonho legal...” Ele fez uma expressão desanimada. “Suzy, tem certeza de que não quer ficar? Aqui podemos ter tudo. Mas lá no orfanato... Eu tenho certeza de que podemos fazer várias coisas legais. Eu prometo que se você ficar, eu não vou mais mentir. </p>
+        <button class="btn-próximo" data-proximo="28"> Próximo... </button> 
+   </div>
+
+       <div class="passo" id="passo-28">
+        <img src="cenario-passo-26.png" alt=""> 
+        <p> Você olha ao seu redor, e percebe o quão bonito aquele mundo é. Você entende o que Félix quer dizer: No mundo real, vocês são duas crianças que foram abandonadas pelos pais e cresceram num orfanato. Vocês nunca tiveram nada, e agora tinham um mundo na palma das mãos. Contudo, você tinha amigos no orfanato e não poderia ficar nesse mundo por muito tempo. Mesmo assim, PiperStone era mil vezes melhor que o mundo real, e no final das contas você tinha Félix, ou Lorde Faifai. Qual você deve escolher? </p>
+        <button class="btn-próximo" data-proximo="29"> Meio dia 🌥(continuar para sempre, em um mundo que nunca anoitece e você pode explorá-lo). </button> 
+        <button class="btn-próximo" data-proximo="30"> Meia noite 🌙(acordar do sonho e voltar à vida real, com seus amigos, esquecer de tudo) </button> 
+    </div>
+
+    <div class="passo" id="passo-29"> 
+        <img src="cenario-passo-27.png" alt=""> 
+        <p> “Então... do que eram feitas aquelas espadas?” Você pergunta, devolvendo o relógio para Félix. Ele sorri, com as bochechas vermelhas e diz: “São feitas de diamante. Muito bonitas, né?”. Ele começa a te guiar pelos corredores do castelo, mostrando e contando todas as histórias que conhece sobre PiperStone. Vocês conversam, se divertem, e depois de pouquíssimo tempo, até se esquecem que são órfãos e tudo da vida real. </p>
+        <button class="btn-próximo" data-proximo="0"> (Fim...?) </button> 
+   </div>
+
+   <div class="passo" id="passo-30"> 
+    <img src="cenario-passo-28.png" alt=""> 
+    <p> Você pega o relógio e muda o ponteiro, e antes que você possa se despedir de Félix, em um piscar de olhos você já parece estar no orfanato. Está de noite e parece que todo mundo está dormindo. Você sorri: “Foi um sonho legal... Félix.” E se lembra, de repente, do amigo que desapareceu depois de tanto tempo. </p>
+    <button class="btn-próximo" data-proximo="0"> (Fim...?) </button> 
+</div>
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>
